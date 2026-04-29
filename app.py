@@ -28,7 +28,7 @@ with st.expander("📖 Background: Local Law 18 (LL18) Context"):
 st.divider()
 
 # --- 3. Data Loading ---
-DATA_PATH = r"/Users/zhujiaqi/Desktop/ds & ai/Project/Data/all_compliant_listings_by_risk.csv"
+DATA_PATH = "Data/all_compliant_listings_by_risk.csv"
 
 @st.cache_data
 def load_data():
